@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T00:00:00.000Z",
+  "title": "Design System: Mango Leche Flan",
+  "extensions": {
+    "colorMeta": {
+      "cream": { "role": "neutral", "displayName": "Warm Cream", "canonical": "oklch(97% 0.02 85)", "tonalRamp": ["#f5efe0", "#f7f1e3", "#f9f4e7", "#fbf6eb", "#fdf9ef", "#fefbf3", "#fffdf7", "#fffefb"] },
+      "cream-deep": { "role": "neutral", "displayName": "Cream Deep", "canonical": "oklch(95% 0.03 85)", "tonalRamp": ["#ede3cf", "#f0e7d4", "#f3ebda", "#f6efe0", "#f9f3e5", "#fbf6eb", "#fdfaf0", "#fefcf5"] },
+      "ink": { "role": "neutral", "displayName": "Cocoa Ink", "canonical": "oklch(25% 0.08 45)", "tonalRamp": ["#1a120b", "#24190f", "#2e2014", "#382718", "#422e1c", "#4c3520", "#563c24", "#604328"] },
+      "ink-soft": { "role": "neutral", "displayName": "Cocoa Ink Soft", "canonical": "oklch(45% 0.06 45)", "tonalRamp": ["#4a3626", "#523d2a", "#5a442e", "#624b32", "#6b5236", "#73593a", "#7b603e", "#836742"] },
+      "mango": { "role": "primary", "displayName": "Canteen Mango", "canonical": "oklch(70% 0.18 80)", "tonalRamp": ["#9a5a00", "#ae6800", "#c27600", "#d68400", "#ea9200", "#f59e0b", "#f8ae3a", "#fbbe69"] },
+      "mango-deep": { "role": "primary", "displayName": "Mango Deep", "canonical": "oklch(62% 0.16 75)", "tonalRamp": ["#864f00", "#9a5a00", "#ae6500", "#c27000", "#d67b00", "#e08106", "#e88a1d", "#f09434"] },
+      "mango-tint": { "role": "primary", "displayName": "Mango Tint", "canonical": "oklch(92% 0.06 85)", "tonalRamp": ["#f0e0b8", "#f3e5c1", "#f6eaca", "#f9eed3", "#fcf3dc", "#fef7e5", "#fefbee", "#fefdf7"] },
+      "mango-ink": { "role": "primary", "displayName": "Mango Ink", "canonical": "oklch(48% 0.12 60)", "tonalRamp": ["#7a3800", "#8a3f00", "#9a4600", "#aa4d00", "#ba5400", "#b45309", "#be5a1a", "#c8612b"] },
+      "mango-ink-strong": { "role": "primary", "displayName": "Mango Ink Strong", "canonical": "oklch(40% 0.14 55)", "tonalRamp": ["#682e00", "#753300", "#823800", "#8f3d00", "#9c4200", "#92400e", "#9c481a", "#a64f26"] },
+      "flan": { "role": "neutral", "displayName": "Flan Gold", "canonical": "oklch(72% 0.12 82)", "tonalRamp": ["#b87a00", "#c78500", "#d69000", "#e59b1a", "#e8b04b", "#ecb85f", "#f0c073", "#f4c887"] },
+      "flan-deep": { "role": "neutral", "displayName": "Flan Deep", "canonical": "oklch(62% 0.10 78)", "tonalRamp": ["#9a6a00", "#a77200", "#b47a00", "#c18200", "#ce8a00", "#c98f2f", "#d19744", "#d99f59"] },
+      "mango-fruit": { "role": "neutral", "displayName": "Mango Fruit", "canonical": "oklch(74% 0.13 80)", "tonalRamp": ["#c07000", "#d07a00", "#e08400", "#ef8e10", "#f2a024", "#f4ab3d", "#f6b656", "#f8c16f"] },
+      "cream-layer": { "role": "neutral", "displayName": "Cream Layer", "canonical": "oklch(96% 0.01 88)", "tonalRamp": ["#ebe6d6", "#eee9db", "#f1ece0", "#f4efe5", "#f7f2ea", "#faf5ef", "#fdf8f4", "#fefbf9"] },
+      "graham": { "role": "neutral", "displayName": "Graham", "canonical": "oklch(52% 0.10 55)", "tonalRamp": ["#784a1a", "#84501d", "#905620", "#9c5c23", "#a86226", "#b07a3c", "#b8824f", "#c08a62"] },
+      "graham-deep": { "role": "neutral", "displayName": "Graham Deep", "canonical": "oklch(42% 0.12 50)", "tonalRamp": ["#5a3614", "#663c17", "#72421a", "#7e481d", "#8a4e20", "#8a5a2b", "#946032", "#9e6639"] },
+      "choco": { "role": "neutral", "displayName": "Chocolate Drizzle", "canonical": "oklch(30% 0.08 35)", "tonalRamp": ["#2a180d", "#351e10", "#402413", "#4b2a16", "#563019", "#6b3f23", "#744628", "#7d4d2d"] },
+      "sugar": { "role": "neutral", "displayName": "Caramelized Sugar", "canonical": "oklch(78% 0.10 85)", "tonalRamp": ["#c89820", "#d0a028", "#d8a830", "#e0b038", "#e8b840", "#e8c15a", "#edc96e", "#f2d182"] },
+      "ok": { "role": "neutral", "displayName": "Okay Green", "canonical": "oklch(48% 0.15 145)", "tonalRamp": ["#1a4a1f", "#205525", "#26602b", "#2c6b31", "#337637", "#3a813d", "#418c43", "#489749"] },
+      "err": { "role": "neutral", "displayName": "Error Red", "canonical": "oklch(52% 0.18 25)", "tonalRamp": ["#7a1a12", "#8a1e14", "#9a2216", "#aa2618", "#b3372a", "#bc3d30", "#c54336", "#ce493c"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline and close footer — the one moment that stops the scroll." },
+      "headline": { "displayName": "Headline", "purpose": "Section headers (Layers, Order, About, Contact)." },
+      "title": { "displayName": "Title", "purpose": "Card titles, layer names, product names." },
+      "body": { "displayName": "Body", "purpose": "Paragraph copy, descriptions, form labels. Max ~65ch via container constraints." },
+      "label": { "displayName": "Label", "purpose": "Badges, price labels, button text, nav links, channel meta. Chip-shaped, all-caps." }
+    },
+    "shadows": [
+      { "name": "ambient", "value": "0 2px 6px rgba(58, 35, 23, 0.08), 0 8px 24px rgba(58, 35, 23, 0.10)", "purpose": "Default card rest state — soft, warm, barely there." },
+      { "name": "chip", "value": "0 2px 4px rgba(58, 35, 23, 0.15), 0 6px 16px rgba(58, 35, 23, 0.12)", "purpose": "Price chips and tighter elements — more defined lift." },
+      { "name": "card", "value": "0 4px 12px rgba(58, 35, 23, 0.1), 0 16px 32px rgba(58, 35, 23, 0.08)", "purpose": "Hover/elevated/selected state — the hand brings the lift." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Default easing for state transitions (hover, focus, selection)." },
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Entrance animations (layer-rise, card-rise) — fast start, gentle settle." },
+      { "name": "duration-fast", "value": "200ms", "purpose": "Hover/focus/selection transitions." },
+      { "name": "duration-medium", "value": "250ms", "purpose": "Layer highlight transitions." },
+      { "name": "duration-entrance", "value": "550ms", "purpose": "Staggered entrance animations (layer-rise 550ms, card-rise 600ms)." },
+      { "name": "stagger-step", "value": "120ms", "purpose": "Delay between staggered entrance items (cards, layers, channels)." }
+    ],
+    "breakpoints": [
+      { "name": "desktop", "value": "880px", "purpose": "Grid activation for hero (2-col), layer list (2-col), about (3-col), product cards (3-col)." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "btn-primary",
+      "description": "Primary CTA — Order Now, Place Order. Mango bg, ink text, ambient shadow, pill radius.",
+      "html": "<button class=\"ds-btn-primary\">ORDER NOW</button>",
+      "css": ".ds-btn-primary { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; background: var(--mango); color: var(--ink); padding: 0.85rem 1.6rem; border-radius: 999px; border: none; cursor: pointer; box-shadow: var(--shadow-soft); transition: background 0.2s ease-out, box-shadow 0.2s ease-out, transform 0.2s ease-out; } .ds-btn-primary:hover { background: var(--mango-deep); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(58, 35, 23, 0.16), 0 14px 32px rgba(58, 35, 23, 0.14); } .ds-btn-primary:active { transform: translateY(0); } .ds-btn-primary:focus-visible { outline: 3px solid var(--mango-deep); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Link Button",
+      "kind": "button",
+      "refersTo": "btn-link",
+      "description": "Secondary CTA — See the layers. No bg, mango-ink text, mango-tint underline.",
+      "html": "<a class=\"ds-btn-link\" href=\"#\">See the layers ↓</a>",
+      "css": ".ds-btn-link { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mango-ink); text-decoration: none; border-bottom: 2px solid var(--mango-tint); transition: border-color 0.2s ease-out; } .ds-btn-link:hover { border-color: var(--mango-deep); } .ds-btn-link:focus-visible { outline: 3px solid var(--mango-deep); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Select Button (Product Card)",
+      "kind": "button",
+      "refersTo": "btn-select",
+      "description": "Product variant selector in order cards. Cream-deep rest, mango-tint hover, mango selected.",
+      "html": "<button class=\"ds-btn-select\" type=\"button\">Select</button>",
+      "css": ".ds-btn-select { font-family: var(--font-display); font-weight: 700; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em; background: var(--cream-deep); color: var(--ink); padding: 0.75rem 1rem; border-radius: 999px; border: 2px solid rgba(58, 35, 23, 0.18); cursor: pointer; transition: background 0.2s ease-out, border-color 0.2s ease-out, color 0.2s ease-out; width: 100%; } .ds-btn-select:hover { background: var(--mango-tint); border-color: var(--mango-deep); } .ds-btn-select.selected { background: var(--mango); color: var(--ink); border-color: var(--ink); } .ds-btn-select.selected:hover { background: var(--mango-deep); } .ds-btn-select:focus-visible { outline: 3px solid var(--mango-deep); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Submit Button",
+      "kind": "button",
+      "refersTo": "btn-submit",
+      "description": "Form submit — mirrors primary, full-width.",
+      "html": "<button class=\"ds-btn-submit\" type=\"submit\">Place Order</button>",
+      "css": ".ds-btn-submit { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; background: var(--mango); color: var(--ink); padding: 0.85rem 1.6rem; border-radius: 999px; border: none; cursor: pointer; box-shadow: var(--shadow-soft); transition: background 0.2s ease-out, box-shadow 0.2s ease-out, transform 0.2s ease-out; width: 100%; } .ds-btn-submit:hover { background: var(--mango-deep); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(58, 35, 23, 0.16), 0 14px 32px rgba(58, 35, 23, 0.14); } .ds-btn-submit:active { transform: translateY(0); } .ds-btn-submit:focus-visible { outline: 3px solid var(--mango-deep); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Price Chip",
+      "kind": "chip",
+      "refersTo": "price-chip",
+      "description": "Price display in hero — classic (white) or with drizzle (mango bg). Card radius, 2px ink border.",
+      "html": "<div class=\"ds-price-chip\"><span class=\"ds-price-amount\">₱30</span><span class=\"ds-price-label\">classic</span></div>",
+      "css": ".ds-price-chip { display: flex; flex-direction: column; align-items: flex-start; background: #fff; border: 2px solid var(--ink); border-radius: 18px; padding: 0.6rem 1rem; min-width: 108px; box-shadow: var(--shadow-chip); } .ds-price-chip.hot { background: var(--mango); border-color: var(--ink); } .ds-price-amount { font-family: var(--font-display); font-weight: 800; font-size: 1.7rem; line-height: 1; color: var(--ink); } .ds-price-label { margin-top: 0.2rem; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); } .ds-price-chip.hot .ds-price-amount, .ds-price-chip.hot .ds-price-label { color: var(--ink); }"
+    },
+    {
+      "name": "Layer Row",
+      "kind": "card",
+      "refersTo": "layer-row",
+      "description": "Layer list item — swatch, name/description, tag. Card radius, 2px ink border, ambient shadow. Active lifts.",
+      "html": "<article class=\"ds-layer-row\"><span class=\"ds-layer-swatch ds-layer-swatch-flan\"></span><div class=\"ds-layer-text\"><h3>Leche flan</h3><p>Silky custard steamed separately, laid as the creamy bedrock.</p></div><span class=\"ds-layer-tag\">the heart</span></article>",
+      "css": ".ds-layer-row { display: grid; grid-template-columns: auto 1fr; grid-template-areas: \"swatch text\" \"swatch tag\"; column-gap: 1rem; row-gap: 0.2rem; align-items: start; background: #fff; border: 2px solid var(--ink); border-radius: 18px; padding: 1.1rem 1.2rem; box-shadow: var(--shadow-soft); transition: transform 0.25s ease-out, box-shadow 0.25s ease-out; } .ds-layer-row.active { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(58, 35, 23, 0.14), 0 12px 28px rgba(58, 35, 23, 0.12); } .ds-layer-swatch { grid-area: swatch; width: 44px; height: 44px; border-radius: 12px; border: 2px solid var(--ink); margin-top: 0.1rem; } .ds-layer-swatch-base { background: var(--graham-deep); } .ds-layer-swatch-flan { background: var(--flan); } .ds-layer-swatch-mango { background: var(--mango-fruit); } .ds-layer-swatch-cream { background: var(--cream-layer); } .ds-layer-swatch-graham { background: var(--graham); } .ds-layer-text { grid-area: text; } .ds-layer-text h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; line-height: 1.2; color: var(--ink); } .ds-layer-text p { margin-top: 0.3rem; font-size: 0.95rem; line-height: 1.5; color: var(--ink-soft); } .ds-layer-tag { grid-area: tag; justify-self: start; font-family: var(--font-display); font-weight: 800; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mango-ink-strong); background: var(--mango-tint); padding: 0.15rem 0.6rem; border-radius: 999px; }"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Order variant card — badge, mini-cup visual, info, select button. Card radius, 2px ink border. Selected: mango border + tint ring.",
+      "html": "<article class=\"ds-product-card\"><div class=\"ds-product-badge\">Classic</div><div class=\"ds-product-visual\"><div class=\"ds-mini-cup\"><div class=\"ds-mini-layer ds-mini-base\"></div><div class=\"ds-mini-layer ds-mini-flan\"></div><div class=\"ds-mini-layer ds-mini-mango\"></div><div class=\"ds-mini-layer ds-mini-cream\"></div><div class=\"ds-mini-layer ds-mini-graham\"></div></div></div><div class=\"ds-product-info\"><h3>Classic</h3><p>Five layers, no drizzle — pure mango float with leche flan foundation.</p><div class=\"ds-product-price\">₱30</div></div><button class=\"ds-btn-select\" type=\"button\">Select</button></article>",
+      "css": ".ds-product-card { display: grid; grid-template-rows: auto 1fr auto auto; gap: 0.75rem; background: #fff; border: 2px solid var(--ink); border-radius: 18px; padding: 1.25rem 1rem 1rem; box-shadow: var(--shadow-soft); transition: transform 0.25s ease-out, box-shadow 0.25s ease-out, border-color 0.2s ease-out; } .ds-product-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card); } .ds-product-card.selected { border-color: var(--mango); box-shadow: 0 0 0 3px var(--mango-tint), var(--shadow-card); } .ds-product-badge { font-family: var(--font-display); font-weight: 800; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mango-ink-strong); background: var(--mango-tint); padding: 0.2rem 0.6rem; border-radius: 999px; width: fit-content; justify-self: start; } .ds-product-visual { display: flex; justify-content: center; align-items: end; min-height: 140px; } .ds-mini-cup { position: relative; width: 80px; height: 120px; background: #fff; border: 3px solid var(--ink); border-radius: 12px 12px 20px 20px; overflow: hidden; } .ds-mini-layer { position: absolute; left: 0; width: 100%; } .ds-mini-base { bottom: 4px; height: 8px; background: var(--graham-deep); } .ds-mini-flan { bottom: 12px; height: 22px; background: var(--flan); } .ds-mini-mango { bottom: 34px; height: 18px; background: var(--mango-fruit); } .ds-mini-cream { bottom: 52px; height: 20px; background: var(--cream-layer); } .ds-mini-graham { bottom: 72px; height: 15px; background: var(--graham); } .ds-product-info { text-align: center; } .ds-product-info h3 { font-family: var(--font-display); font-weight: 800; font-size: 1.1rem; color: var(--ink); margin-bottom: 0.3rem; } .ds-product-info p { font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.5rem; } .ds-product-price { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; color: var(--mango-ink-strong); }"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "form-field",
+      "description": "Number input for quantity. Cream bg, 2px 18% ink border, 12px radius. Focus: mango-deep border.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">How many cups?</span><input type=\"number\" class=\"ds-form-field\" inputmode=\"numeric\" min=\"1\" max=\"20\" value=\"1\"></label>",
+      "css": ".ds-field { display: grid; gap: 0.3rem; } .ds-field-label { font-weight: 700; font-size: 0.9rem; } .ds-form-field { font-family: var(--font-body); font-size: 1.05rem; font-weight: 700; color: var(--ink); background: var(--cream); border: 2px solid rgba(58, 35, 23, 0.18); border-radius: 12px; padding: 0.6rem 0.8rem; width: 100%; transition: border-color 0.2s ease-out; } .ds-form-field:focus { border-color: var(--mango-deep); outline: none; } .ds-form-field:focus-visible { outline: 3px solid var(--mango-deep); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Topbar Navigation",
+      "kind": "nav",
+      "refersTo": "topnav",
+      "description": "Sticky topbar — translucent cream backdrop, ink border bottom. Wordmark + chip-style nav links.",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-wordmark\" href=\"#\"><span>Mango</span> Leche Flan</a><nav class=\"ds-topnav\" aria-label=\"Main\"><a href=\"#\">Home</a><a href=\"#about\">About Us</a><a href=\"#contact\">Contact</a></nav></header>",
+      "css": ".ds-topbar { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 0.8rem 1.25rem; background: rgba(255, 248, 236, 0.92); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(58, 35, 23, 0.08); } .ds-wordmark { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; color: var(--ink); text-decoration: none; letter-spacing: -0.01em; line-height: 1.1; } .ds-wordmark span { color: var(--mango-ink); } .ds-topnav { display: flex; align-items: center; gap: 0.75rem; } .ds-topnav a { font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink); text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 999px; transition: background 0.2s ease-out, color 0.2s ease-out; } .ds-topnav a:hover { background: var(--mango-tint); color: var(--mango-deep); } .ds-topnav a:focus-visible { outline: 3px solid var(--mango-deep); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Channel Item",
+      "kind": "card",
+      "refersTo": "channel-item",
+      "description": "Contact channel row — icon + label/detail. Card radius, 2px ink border. Hover: translateX(4px).",
+      "html": "<article class=\"ds-channel-item\"><div class=\"ds-channel-icon\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"/></svg></div><div><strong>Facebook</strong><span class=\"ds-channel-detail\">facebook.com/stembayan — <em class=\"placeholder-note\">@StemBayan</em></span></div></article>",
+      "css": ".ds-channel-item { display: flex; gap: 0.85rem; align-items: flex-start; background: #fff; border: 2px solid var(--ink); border-radius: 18px; padding: 1rem 1.25rem; box-shadow: var(--shadow-soft); transition: transform 0.25s ease-out, box-shadow 0.25s ease-out; } .ds-channel-item:hover { transform: translateX(4px); box-shadow: var(--shadow-card); } .ds-channel-icon { flex-shrink: 0; display: grid; place-items: center; width: 44px; height: 44px; background: var(--cream); border: 2px solid var(--ink); border-radius: 12px; color: var(--mango-ink); } .ds-channel-icon svg { width: 22px; height: 22px; } .ds-channel-detail { display: block; margin-top: 0.15rem; font-size: 0.92rem; line-height: 1.4; color: var(--ink-soft); } .placeholder-note { font-style: italic; }"
+    },
+    {
+      "name": "Layered Cup Diagram",
+      "kind": "custom",
+      "refersTo": "cup-diagram",
+      "description": "Signature component — illustrated cross-section cup with 6 animated layers, cherry, shine. Interactive: hover layer highlights diagram + matching row + caption.",
+      "html": "<div class=\"ds-cup-wrap\" id=\"dsCupInteractive\"><div class=\"ds-cup\" role=\"img\" aria-label=\"Diagram of the cup from bottom to top: graham crust base, leche flan, sliced mangoes, cream, crushed graham, drizzle topping\"><div class=\"ds-layer ds-layer-base\" data-layer=\"base\"></div><div class=\"ds-layer ds-layer-flan\" data-layer=\"flan\"></div><div class=\"ds-layer ds-layer-mango\" data-layer=\"mango\"></div><div class=\"ds-layer ds-layer-cream\" data-layer=\"cream\"></div><div class=\"ds-layer ds-layer-graham\" data-layer=\"graham\"></div><div class=\"ds-layer ds-layer-drizzle\" data-layer=\"drizzle\"></div><div class=\"ds-cup-cherry\" aria-hidden=\"true\"></div><div class=\"ds-cup-shine\" aria-hidden=\"true\"></div></div><figcaption class=\"ds-cup-caption\"><span class=\"ds-cup-caption-dot\" aria-hidden=\"true\"></span><span id=\"dsCupCaptionText\">Leche flan — the silky foundation</span></figcaption></div>",
+      "css": ".ds-cup-wrap { position: relative; width: min(300px, 80vw); margin: 0 auto; } .ds-cup { position: relative; width: 230px; height: 300px; margin: 0 auto; background: #fff; border: 4px solid var(--ink); border-radius: 18px 18px 28px 28px; box-shadow: 0 2px 6px rgba(58, 35, 23, 0.08), 0 18px 32px rgba(58, 35, 23, 0.14); overflow: hidden; } .ds-layer { position: absolute; left: 0; width: 100%; transition: filter 0.25s ease-out, transform 0.25s ease-out; } .ds-layer-base { bottom: 8px; height: 18px; background: var(--graham-deep); } .ds-layer-flan { bottom: 26px; height: 50px; background: var(--flan); } .ds-layer-mango { bottom: 76px; height: 44px; background: var(--mango-fruit); } .ds-layer-cream { bottom: 120px; height: 50px; background: var(--cream-layer); } .ds-layer-graham { bottom: 170px; height: 38px; background: var(--graham); } .ds-layer-drizzle { top: 8px; height: 12px; background: var(--sugar); border-radius: 0 0 12px 12px; } .ds-layer.active { filter: brightness(1.12) saturate(1.25); transform: translateX(4px); box-shadow: inset 0 0 0 2px var(--ink); } .ds-cup-cherry { position: absolute; top: -14px; left: 50%; width: 18px; height: 18px; margin-left: -40px; background: #d3402c; border: 3px solid var(--ink); border-radius: 50%; z-index: 1; } .ds-cup-shine { position: absolute; top: 12px; left: 16px; width: 14px; height: 150px; background: rgba(255, 255, 255, 0.45); border-radius: 999px; pointer-events: none; } .ds-cup-caption { margin-top: 0.75rem; display: flex; align-items: flex-start; justify-content: center; gap: 0.5rem; min-height: 3.2em; font-weight: 700; font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); } .ds-cup-caption-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--mango); flex-shrink: 0; margin-top: 0.35em; transition: background 0.25s ease-out; } @media (min-width: 880px) { .ds-cup-wrap { width: min(340px, 100%); } .ds-cup { width: 260px; height: 372px; } .ds-layer-base { bottom: 10px; height: 22px; } .ds-layer-flan { bottom: 32px; height: 62px; } .ds-layer-mango { bottom: 94px; height: 52px; } .ds-layer-cream { bottom: 146px; height: 62px; } .ds-layer-graham { bottom: 208px; height: 46px; } .ds-layer-drizzle { top: 10px; height: 14px; } } @media (prefers-reduced-motion: reduce) { .ds-layer { animation: none !important; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Canteen Cooler",
+    "overview": "A warm, schoolyard-fresh identity that feels like pressing a cold cup into your hands on a 40°C day. The system leads with appetite: mango-orange as the committed accent on a cream ground, cocoa-brown ink for warmth, and visible layers that prove the product's difference at a glance. Density is generous but never loose — sections breathe on mobile, cards cast soft ink shadows, and every interactive surface responds with a confident lift. The aesthetic rejects sterile minimalism; it chooses the friendly, slightly rounded vernacular of a student-run stall, where Comic-style display type and chip-shaped buttons feel native, not nostalgic.",
+    "keyCharacteristics": [
+      "Cream ground (#fff8ec) with mango-orange (#f59e0b) as the single committed accent",
+      "Cocoa-brown ink (#3a2317) for warmth, never pure black",
+      "Baloo 2 display + Nunito body — friendly, legible, school-appropriate",
+      "Generous 18px card radius, full-pill chip radius — soft, approachable corners",
+      "Soft ink shadows that lift on interaction, not hover-only decoration",
+      "Visible layering as visual proof — the cup diagram and layer swatches are the hero",
+      "Prices (₱30/₱35) treated as first-class content, never buried"
+    ],
+    "rules": [
+      { "name": "The One Accent Rule", "body": "Mango orange (#f59e0b) appears on ≤10% of any screen. Its job is to say \"act now\" — CTA, selected price, the hot price chip. It never decorates.", "section": "colors" },
+      { "name": "The Edible Palette Rule", "body": "Every non-neutral color maps to a real ingredient layer. If a color cannot be pointed to in the cup diagram, it does not belong in the system.", "section": "colors" },
+      { "name": "The Ink Warmth Rule", "body": "No pure black (#000). Cocoa ink (#3a2317) carries all structure; its soft variant (#6b4a33) carries all secondary text. This warmth is non-negotiable.", "section": "colors" },
+      { "name": "The Display Rarity Rule", "body": "Display weight (800) appears only at Display and Headline roles. Titles use 700; body never exceeds 600. The heaviness is reserved for the moments that must stop the scroll.", "section": "typography" },
+      { "name": "The Label Shape Rule", "body": "All-caps label text (0.08em tracking) only appears inside chip-radius containers (badges, buttons, nav pills). It never runs loose in body copy.", "section": "typography" },
+      { "name": "The Lift-On-Intent Rule", "body": "Shadows deepen only on hover, focus, or selection — never as static decoration. A card at rest is flat with ambient; the hand (or thumb) brings the lift.", "section": "elevation" },
+      { "name": "The Ink Shadow Rule", "body": "All shadows use rgba(58, 35, 23, α) — cocoa ink, never neutral gray. The warmth persists in elevation.", "section": "elevation" },
+      { "name": "The Two-Radius Rule", "body": "The system has exactly two structural radii: card (18px) and chip (999px). Layer swatches (12px) and cup silhouettes (18/28px) are component-specific exceptions, not scale steps. No radius ladder (sm/md/lg/xl).", "section": "shapes" },
+      { "name": "The Two-Pixel Border Rule", "body": "Structural borders are 2px cocoa ink. No 1px, no variable weight. The border is a deliberate stroke, not a whisper.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do use mango orange (#f59e0b) only for primary actions, selected states, and the hot price chip. Its scarcity is its power.",
+      "Do keep all borders at 2px cocoa ink (#3a2317). The stroke weight is part of the warm, hand-made feel.",
+      "Do pair Baloo 2 800 with Nunito 400/600/700. The display family owns headlines, badges, and buttons; body owns prose.",
+      "Do lift cards on hover/focus/selection (translateY -2px to -4px + card shadow). Depth responds to intent.",
+      "Do show prices (₱30/₱35) in display-weight Baloo 2 at every decision point — hero, layer list, product cards, form total.",
+      "Do make the layer diagram interactive. The cup is not illustration; it's the spec.",
+      "Do use the landscape gradients (--bg-landscape-1/2/3) per section. They shift warmth without changing the ground."
+    ],
+    "donts": [
+      "Don't introduce a second accent color. Mango orange is the one committed color; flan gold, mango fruit, graham, etc. are layer-semantic, not UI accents.",
+      "Don't use pure black (#000) or cool grays. Cocoa ink (#3a2317) and its soft variant carry all structure.",
+      "Don't add radius steps (sm/md/lg). The system has card (18px) and chip (999px). Component-specific radii (cup 18/28, swatch 12) are exceptions, not scale.",
+      "Don't use hairline (1px) borders. The 2px ink stroke is deliberate.",
+      "Don't make the mock checkout look real. The \"Demo only\" toast, hidden action, and labeled demo contract are non-negotiable honesty.",
+      "Don't hide the layers. The visible layering is the differentiation; every section should reinforce it.",
+      "Don't use box-shadow for static decoration. Shadows only deepen on interaction (hover, focus, selection)."
+    ]
+  }
+}

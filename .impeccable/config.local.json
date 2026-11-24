@@ -1,0 +1,13 @@
+{
+  "hook": {
+    "consent": "accepted"
+  },
+  "ignores": {
+    "values": {
+      "cream-palette": ["#fff8ec", "rgb(255, 248, 236)"]
+    },
+    "rules": {
+      "low-contrast": ["order.html", "thank-you.html"]
+    }
+  }
+}

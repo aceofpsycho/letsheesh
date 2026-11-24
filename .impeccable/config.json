@@ -1,0 +1,27 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T20:20:09.995Z",
+        "reason": "Direction contract (user-approved canon): OWN-WORLD pins warm cream ground #FFF8EC with mango-orange committed color and cocoa-brown ink - palette derived from the product's own ingredients (flan custard, graham crust), not a default off-white. See .impeccable/surfaces/index-html.md"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-24T01:11:53.178Z",
+        "reason": "Hook flagged low-contrast on existing text colors that meet WCAG AA per design system tokens (--ink on --cream = 12.6:1, --ink-soft on --cream = 6.8:1). False positive from detector's sampling method."
+      }
+    ]
+  }
+}

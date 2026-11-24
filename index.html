@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mango Leche Flan — Two desserts. One cup. Built for the heat.</title>
+<meta name="description" content="Creamy mango float layered under silky leche flan. ₱30 Classic, ₱35 with chocolate drizzle or melted sugar drizzle. Order by message or find us at the canteen.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="wordmark" href="#top"><span>Mango</span> Leche Flan</a>
+  <nav class="topnav" aria-label="Main">
+    <a href="#top">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>Two desserts. One cup. Built for the heat.</h1>
+      <p class="hero-tagline">Pampalamig sa Pambansang Init!</p>
+      <p class="hero-sub">Creamy mango float layered over silky leche flan. Chilled, canteen-fresh, and made for the hottest school days.</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#order">Order Now</a>
+        <a class="btn-link" href="#layers">See the layers</a>
+      </div>
+    </div>
+
+    <div class="hero-cup" aria-hidden="false">
+      <!--
+        ============================================================
+        HOW TO ADD YOUR PRODUCT PHOTO (when it's ready):
+        1. Save your photo as  cup.jpg  inside the  assets/img  folder.
+        2. Done — this page swaps the illustrated cup for your photo
+           automatically. Keep the name exactly "cup.jpg".
+        Until then, visitors see the illustrated layers below.
+        ============================================================
+      -->
+      <figure class="cup-wrap" id="cupInteractive">
+        <div class="photo-slot photo-slot-hero" id="heroPhotoSlot">
+          <img src="assets/img/cup.jpg" alt="Mango Leche Flan cup — leche flan base with mango, cream, crushed graham, and drizzle"
+               onerror="this.closest('.photo-slot').classList.add('empty')">
+        </div>
+
+        <!-- Illustrated cross-section (shown until cup.jpg exists) -->
+        <div class="cup" role="img" aria-label="Diagram of the cup from bottom to top: leche flan base, sliced mangoes, cream, crushed graham, drizzle topping">
+          <div class="layer layer-flan" data-layer="flan"></div>
+          <div class="layer layer-mango" data-layer="mango"></div>
+          <div class="layer layer-cream" data-layer="cream"></div>
+          <div class="layer layer-graham" data-layer="graham"></div>
+          <div class="layer layer-drizzle" data-layer="drizzle"></div>
+          <div class="cup-cherry" aria-hidden="true"></div>
+          <div class="cup-shine" aria-hidden="true"></div>
+        </div>
+
+        <div class="price-pair" aria-label="Prices">
+          <div class="price-chip">
+            <span class="price-amount">₱30</span>
+            <span class="price-label">classic</span>
+          </div>
+          <div class="price-chip price-chip-hot">
+            <span class="price-amount">₱35</span>
+            <span class="price-label">with drizzle</span>
+          </div>
+        </div>
+
+        <figcaption class="cup-caption" id="cupCaption">
+          <span class="cup-caption-dot" aria-hidden="true"></span>
+          <span id="cupCaptionText">Leche flan — the silky foundation</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ THE LAYERS ============ -->
+  <section class="layers" id="layers">
+    <h2>What's in the cup</h2>
+    <p class="layers-sub">Five layers, built from the bottom up. Each one earns its place.</p>
+
+    <ol class="layer-list">
+      <li class="layer-row" data-layer="flan">
+        <span class="layer-swatch layer-swatch-flan" aria-hidden="true"></span>
+        <div class="layer-text">
+          <h3>Leche flan</h3>
+          <p>Silky custard steamed separately, laid as the creamy bedrock. Sweet, smooth, and unmistakable.</p>
+        </div>
+        <span class="layer-tag">the heart</span>
+      </li>
+      <li class="layer-row" data-layer="mango">
+        <span class="layer-swatch layer-swatch-mango" aria-hidden="true"></span>
+        <div class="layer-text">
+          <h3>Sliced mangoes</h3>
+          <p>Sweet Philippine carabao mangoes, sliced fresh. The reason it tastes like summer even in December.</p>
+        </div>
+        <span class="layer-tag">the flavor</span>
+      </li>
+      <li class="layer-row" data-layer="cream">
+        <span class="layer-swatch layer-swatch-cream" aria-hidden="true"></span>
+        <div class="layer-text">
+          <h3>Cream</h3>
+          <p>Chilled all-purpose cream whipped light. Cold, airy, and the first thing you feel on a hot day.</p>
+        </div>
+        <span class="layer-tag">the cool</span>
+      </li>
+      <li class="layer-row" data-layer="graham">
+        <span class="layer-swatch layer-swatch-graham" aria-hidden="true"></span>
+        <div class="layer-text">
+          <h3>Crushed graham</h3>
+          <p>Crunchy base layer that gives the cup its structure and sweet crunch.</p>
+        </div>
+        <span class="layer-tag">the base</span>
+      </li>
+      <li class="layer-row" data-layer="drizzle">
+        <span class="layer-swatch layer-swatch-sugar" aria-hidden="true"></span>
+        <div class="layer-text">
+          <h3>Your drizzle</h3>
+          <p>Chocolate or melted sugar for the perfect finishing touch.</p>
+        </div>
+        <span class="layer-tag">the finish</span>
+      </li>
+    </ol>
+
+    <div class="drizzle-options">
+      <h3>Choose your drizzle</h3>
+      <p class="drizzle-sub">Each cup gets one drizzle — pick your adventure.</p>
+      <div class="drizzle-swatches" aria-hidden="true">
+        <div class="drizzle-option">
+          <span class="drizzle drizzle-choco"></span>
+          <span class="drizzle-label">Chocolate</span>
+        </div>
+        <div class="drizzle-option">
+          <span class="drizzle drizzle-sugar"></span>
+          <span class="drizzle-label">Melted sugar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT US ============ -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Our Product</h3>
+        <p>Our product "Mango Leche Flan" represents our delicious and refreshing dessert. Our logo features a picture of the dessert at the center. It highlights its unique layers and sweet flavor. The blue comic-style background represents excitement and creativity. The water splashes symbolize freshness. The bright yellow, orange, and red colors make the logo eye-catching. They reflect the sweetness and deliciousness of our product. Overall, our logo represents a fun, refreshing, and enjoyable dessert we offer to our customers.</p>
+      </div>
+      <div class="about-card">
+        <h3>Vision</h3>
+        <p>To make Mango Leche Flan the best-selling dessert product in our school. We want Mango Leche Flan to be the go-to dessert for students whenever they need a refreshing break or a sweet pick-me-up. Our goal is for our unique layered desserts to bring genuine smiles to our campus community with every single order.</p>
+      </div>
+      <div class="about-card">
+        <h3>Mission</h3>
+        <p>To bring a refreshing and delicious dessert product that becomes the go-to dessert for students in our school. Through our layered dessert that contains leche flan, sliced mangoes, crushed graham, and cream, we aim to offer an enjoyable dessert to students that satisfies cravings. It promotes customer satisfaction and leaves customers with a refreshing feeling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ORDER (PRODUCT SELECTION) ============ -->
+  <section class="order" id="order">
+    <div class="order-head">
+      <h2>Pick your cup</h2>
+      <p class="order-sub">Classic ₱30 or with drizzle ₱35.</p>
+    </div>
+
+    <div class="product-cards" role="list">
+      <article class="product-card" data-product="classic" role="listitem">
+        <a href="order.html?product=classic" class="product-card-link" aria-label="Order Classic Mango Leche Flan ₱30">
+          <div class="product-badge">Classic</div>
+          <div class="product-visual">
+            <div class="mini-cup">
+              <div class="mini-layer mini-flan"></div>
+              <div class="mini-layer mini-mango"></div>
+              <div class="mini-layer mini-cream"></div>
+              <div class="mini-layer mini-graham"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Classic</h3>
+            <p>Layered dessert with leche flan and mango.</p>
+            <div class="product-price">₱30</div>
+          </div>
+          <span class="btn btn-select">Order</span>
+        </a>
+      </article>
+
+      <article class="product-card" data-product="choco" role="listitem">
+        <a href="order.html?product=choco" class="product-card-link" aria-label="Order Chocolate Drizzle Mango Leche Flan ₱35">
+          <div class="product-badge">Chocolate Drizzle</div>
+          <div class="product-visual">
+            <div class="mini-cup">
+              <div class="mini-layer mini-flan"></div>
+              <div class="mini-layer mini-mango"></div>
+              <div class="mini-layer mini-cream"></div>
+              <div class="mini-layer mini-graham"></div>
+              <div class="mini-layer mini-drizzle mini-choco"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Chocolate Drizzle</h3>
+            <p>Classic layers with rich chocolate sauce.</p>
+            <div class="product-price">₱35</div>
+          </div>
+          <span class="btn btn-select">Order</span>
+        </a>
+      </article>
+
+      <article class="product-card" data-product="sugar" role="listitem">
+        <a href="order.html?product=sugar" class="product-card-link" aria-label="Order Melted Sugar Drizzle Mango Leche Flan ₱35">
+          <div class="product-badge">Melted Sugar Drizzle</div>
+          <div class="product-visual">
+            <div class="mini-cup">
+              <div class="mini-layer mini-flan"></div>
+              <div class="mini-layer mini-mango"></div>
+              <div class="mini-layer mini-cream"></div>
+              <div class="mini-layer mini-graham"></div>
+              <div class="mini-layer mini-drizzle mini-sugar"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Melted Sugar Drizzle</h3>
+            <p>Classic layers with caramelized melted sugar.</p>
+            <div class="product-price">₱35</div>
+          </div>
+          <span class="btn btn-select">Order</span>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / HOW TO ACQUIRE ============ -->
+  <section class="contact" id="contact">
+    <h2>How to Acquire our Product</h2>
+    <ul class="order-channels">
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=61577427183952" target="_blank" rel="noopener" class="channel-link">
+          <span class="channel-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </span>
+          <div>
+            <strong>Facebook</strong>
+            <span class="channel-detail"><em class="placeholder-note">@StemBayan</em></span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/stembayan_/" target="_blank" rel="noopener" class="channel-link">
+          <span class="channel-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </span>
+          <div>
+            <strong>Instagram</strong>
+            <span class="channel-detail"><em class="placeholder-note">@StemBayan</em></span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ CLOSE ============ -->
+  <footer class="close">
+    <p class="close-line">Two desserts. One cup. <span class="close-accent">See you at recess.</span></p>
+    <p class="close-sub">Mango Leche Flan — a student-run cooler, made fresh for the school day.</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

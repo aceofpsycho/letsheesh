@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order — Mango Leche Flan</title>
+<meta name="description" content="Place your order for Mango Leche Flan. Classic ₱30, Chocolate Drizzle ₱35, Melted Sugar Drizzle ₱35.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="wordmark" href="index.html#top"><span>Mango</span> Leche Flan</a>
+  <nav class="topnav" aria-label="Main">
+    <a href="index.html#top">Home</a>
+    <a href="index.html#about">About Us</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ ORDER FORM ============ -->
+  <section class="order-order-form">
+    <div class="order-form-header">
+      <h2>Order</h2>
+      <p class="order-form-sub">Qty × Price auto-calc. Message to confirm.</p>
+    </div>
+
+    <form class="order-form" id="orderForm" novalidate>
+      <!-- Product -->
+      <div class="field-group">
+        <label class="field">
+          <span class="field-label">Product</span>
+          <input type="text" id="displayProduct" readonly aria-label="Selected product">
+        </label>
+      </div>
+
+      <!-- Qty & Total in one row -->
+      <div class="field-row">
+        <label class="field">
+          <span class="field-label">Qty</span>
+          <input type="number" id="qty" name="quantity" inputmode="numeric" min="1" max="20" value="1">
+        </label>
+        <label class="field">
+          <span class="field-label">Total</span>
+          <input type="text" id="totalAmount" readonly aria-label="Order total" value="₱30">
+        </label>
+      </div>
+
+      <!-- Name -->
+      <label class="field full-width">
+        <span class="field-label">Name</span>
+        <input type="text" id="customerName" name="customerName" autocomplete="name" placeholder=" Juan Dela Cruz">
+      </label>
+
+      <!-- Mobile -->
+      <label class="field full-width">
+        <span class="field-label">Mobile</span>
+        <input type="tel" id="mobileNumber" name="mobileNumber" inputmode="tel" autocomplete="tel" placeholder="09123456789">
+      </label>
+
+      <!-- Address -->
+      <label class="field full-width">
+        <span class="field-label">Address</span>
+        <textarea id="address" name="address" placeholder="Block 12, Street Name"></textarea>
+      </label>
+
+      <!-- Payment -->
+      <div class="payment-selection">
+        <label class="payment-option">
+          <input type="radio" name="paymentMethod" value="cod" checked>
+          <span class="payment-option-content">
+            <span class="payment-icon cod-icon" aria-hidden="true">💵</span>
+            <strong>COD</strong>
+          </span>
+        </label>
+        <label class="payment-option">
+          <input type="radio" name="paymentMethod" value="gcash">
+          <span class="payment-option-content">
+            <span class="payment-icon gcash-icon" aria-hidden="true">📱</span>
+            <strong>GCash</strong>
+          </span>
+        </label>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submitBtn">Order</button>
+    </form>
+  </section>
+
+  <footer class="close">
+    <p class="close-line">Two desserts. One cup. <span class="close-accent">See you at recess.</span></p>
+    <p class="close-sub">Mango Leche Flan — a student-run cooler, made fresh for the school day.</p>
+  </footer>
+
+</main>
+
+<script src="order.js"></script>
+</body>
+</html>
